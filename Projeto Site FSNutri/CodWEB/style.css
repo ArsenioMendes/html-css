@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Amerika';
+    src: url(midia/font/AMERSN__.ttf);
+}
+
+    /* Corpo */
+body {
+    background: linear-gradient(to bottom, RGB(242 236 201), RGB(117 122 77)) ;
+    background-attachment: fixed;
+
+   /* Cabeçalho */
+}
+header {
+    background-color: RGB(63 71 39);
+    height: auto;
+    width: 87vw;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px black;
+    margin: auto;
+    padding: 1vw;
+
+    
+}
+header > h1 {
+    font-family: 'Amerika';
+    font-weight: 900;
+    color: rgb(242 236 201);
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 0.5vw;
+    font-size: 5vw;
+    margin-bottom: 0vw;
+    margin-top: 1vw;
+}
+header > h2 {
+    font-family: sans-serif;
+    color: rgb(242 236 201);
+    margin-left: 19.5vw;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 0.5vw;
+    font-size: 1vw;
+    margin-top: 0vw;
+}
+nav {
+    border-radius: 4px;
+    width: 45%;
+    margin-left: 2px;
+    margin-top: 3%;
+    letter-spacing: 1px;
+    font-size: 1.3vw;
+}
+nav > a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: RGB(242 236 201);
+    text-shadow: 2px 2px 2px black;
+    margin-left: 1vw;
+
+}
+nav > a:hover {
+    text-decoration: underline;
+    color: rgba(175, 111, 65, 0.933);
+}
+
+/* Corpo principal */
+
+main {
+    text-align: center;
+    background-color: rgb( 242 236 201);
+    width: 70%;
+    height: 200vw;
+    margin: auto;
+    margin-top: 1vw;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px black;
+    padding: 2vw;
+}
+h1 {
+    margin-bottom: 3vw;
+    font-size: 4vw;
+    text-shadow: 1px 1px 1px black;
+    color: rgb(63 71 39) ;
+}
+main > img {
+    width: 48%;
+    height: 40vw;
+    float: left;
+
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px black;
+}
+main > p {
+    width: 48%;
+    font-size: 2vw;
+    float: right;
+    margin-top: 0vw;
+    
+}
+main > div {
+    margin-top: 50vw;
+    
+
+}
+div > a {
+    margin: 2vw 2vw 2vw 2vw;
+    display: inline-block;
+
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px black;
+    border: 2px solid black;
+    padding: 1vw 2vw 4vw 2vw;
+
+    font-family: 'amerika';
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+
+}
+div > a:hover {
+    background-color: lightgray;
+    padding: 2vw 3vw 5vw 3vw;
+    margin: 1vw 1vw 1vw 1vw;
+}
+div > a > img {
+    display: block;
+    margin: auto;
+    margin-top: 3vw;
+    margin-bottom: 6vw;
+    width: 14vw;
+    border-radius: 8px;
+}
+
+/*Rodapé*/
+
+footer {
+    padding: 1vw 2vw 2vw 2vw;
+    margin: 1vw -2vw -2vw -2vw;
+    height: 9vw;
+
+    background-color: #020202;
+    color: white;
+    
+
+}
+footer > h2 {
+    float: left;
+    font-size: 2vw;
+    font-family: sans-serif;
+    margin: 1vw 1vw 0vw 1vw;
+}
+footer > img {
+    height: 12vw;
+    width: 15vw;
+    border-radius: 8px;
+    margin: -1vw 1vw 0vw 0vw;
+    float: right;
+}
+footer > ul {
+    float: left;
+    columns: 2;
+    column-gap: 4vw;
+}
+footer > ul > li > a {
+    font-family: sans-serif;
+    font-size: 1vw;
+    text-decoration: none;
+    color: white;
+}
+footer > p {
+    float: right;
+    color: rgb(117, 116, 116);
+    margin: 7.5vw 0vw 0vw 0vw;
+    font-size: 1vw;
+    
+}
