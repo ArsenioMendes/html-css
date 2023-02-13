@@ -17,6 +17,11 @@
     font-family: 'Forum', cursive;
 }
 
+body {
+    background-color: gray;
+    
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -27,9 +32,37 @@ header {
     background-color: rgb(116, 177, 246);
     width: 100%;
     color: white;
+    box-shadow: 2px 2px 3px rgb(31, 31, 31);
 }
 
 header > nav {
     display: flex;
     gap: 7%;
+}
+
+.abaixotitulo {
+    background-image: url(https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left bottom;
+    height: 40vh;
+}
+
+.divsmain {
+    background-color: rgb(255, 255, 255);
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.textomain{
+    width: 120%;
+}
+
+.fotomain {
+    
+    width: 80%;
 }
