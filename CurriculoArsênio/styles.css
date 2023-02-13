@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.fontworksans {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.fontforum {
+    font-family: 'Forum', cursive;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5% 0.5%;
+    position: fixed;
+    background-color: rgb(116, 177, 246);
+    width: 100%;
+    color: white;
+}
+
+header > nav {
+    display: flex;
+    gap: 7%;
+}
