@@ -10,10 +10,12 @@
 
 .fontworksans {
     font-family: 'Work Sans', sans-serif;
+    font-size: 3vw;
 }
 
 .fontforum {
     font-family: 'Forum', cursive;
+    font-size: 2.1vw;
 }
 
 body {
@@ -45,7 +47,9 @@ header > nav {
     background-attachment: fixed;
     background-size: cover;
     background-position: left bottom;
-    height: 40vh;
+    height: 35vw;
+    max-height: 15%;
+
 }
 
 .divsmain {
@@ -58,10 +62,13 @@ header > nav {
 }
 
 .textomain{
-    width: 120%;
+    width: 250%;
 }
 
 .fotomain {
-    
-    width: 80%;
+    width: 90%;
+}
+
+.logo {
+    width: 10%;
 }
