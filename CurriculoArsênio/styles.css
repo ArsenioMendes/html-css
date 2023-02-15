@@ -30,7 +30,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 1% 6% 1% 2%;
+    padding: 1% 4% 1% 2%;
     position: fixed;
     background-color: #362EF4;
     width: 100%;
@@ -40,7 +40,7 @@ header {
 
 header > nav {
     display: flex;
-    gap: 7vw;
+    gap: 3vw;
 }
 
 .abaixotitulo {
@@ -76,4 +76,30 @@ header > nav {
 
 .logo {
     width: 4.5vw;
+}
+
+footer {
+    background-color: #362EF4;
+    margin: 10vw 0vw 0vw 0vw;
+    padding: 2vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color: white;
+    font-family: 'Forum', cursive;
+    font-size: 2vw;
+}
+
+
+.verticalline {
+    display: inline-block;
+    height: 15vw;
+    border-left: 1px solid black;
+    margin: 0 20px;
+}
+
+footer > span > p {
+    margin-bottom: 1vw;
 }
