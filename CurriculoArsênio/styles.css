@@ -93,3 +93,7 @@ footer {
 footer > span > p {
     margin-bottom: 1vw;
 }
+
+.certificados {
+    width: 20vw;
+}
