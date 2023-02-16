@@ -11,7 +11,7 @@
 }
 
 .fontworksans {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Domine';
     font-size: 3vw;
 }
 
@@ -20,17 +20,12 @@
     font-size: 2.1vw;
 }
 
-.fontworksansbold {
-
-}
-
-
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 1% 4% 1% 2%;
+    padding: 1.5%;
     position: fixed;
     background-color: #362EF4;
     width: 100%;
@@ -40,7 +35,7 @@ header {
 
 header > nav {
     display: flex;
-    gap: 3vw;
+    gap: 2vw;
 }
 
 .abaixotitulo {
@@ -50,23 +45,18 @@ header > nav {
     background-size: cover;
     background-position: center;
     height: 40vw;
-
 }
 
 .divsmain {
-    
-    margin-top: -16vw;
+    margin-top: -17vw;
     padding: 4vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 5vw;
-
-
 }
 
 .textomain{
-    
     width: 50vw;
 }
 
